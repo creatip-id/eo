@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+.amatic {
+  font-family: 'Amatic SC', cursive;
+}
+
+.navbar-brand {
+  font-size: 24px;
+}
+
+.navColor {
+  background-color: #28DF99;
+}
+
+.jumbotron {
+  background-color: #28DF99;
+}
+
+.myButton:link, .myButton:visited, .myButton:hover {
+  width: 110px;
+  height: 35px;
+  background-color: #F6F7D4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+  font-size: 12px;
+  font-weight: bold;
+  box-shadow: 5px 5px 0px rgba(153, 243, 189, 0.5);
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
