@@ -32,10 +32,12 @@ events.forEach(evnt => {
   `
 })
 
-function detail(nama, desc, imgD, join) {
-  console.log(join);
+function detail(nama, desc, imgD) {
   let detail = document.querySelector("#detail");
   detail.querySelector('.eventImg').src = imgD;
   detail.querySelector('.eventTitle').innerHTML = nama;
   detail.querySelector('.eventDesc').innerHTML = desc;
 }
+
+document.querySelector(".jmlClient").innerHTML = events.length;
+document.querySelector(".jmlEvent").innerHTML = events.length;

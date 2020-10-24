@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
 .amatic {
   font-family: 'Amatic SC', cursive;
@@ -7,6 +8,10 @@
 
 .quicksand {
   font-family: 'Quicksand', sans-serif;
+}
+
+.raleway {
+  font-family: 'Raleway', sans-serif;
 }
 
 .navbar-brand {
@@ -92,7 +97,7 @@
 
 /* SLICK SLIDER */
 .slick-slide {
-    margin: 0px 20px;
+    margin: 0px 10px;
 }
 
 .slick-slide img {
@@ -210,6 +215,29 @@
   height: 200px;
 }
 
+/* ABOUT */
+.client p,
+.created p {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* services */
+.services {
+  background: linear-gradient(white, #D2F6C5);
+  margin-top: 100px;
+}
+
+/* contact */
+#contact {
+  min-height: 100vh;
+  background-color: #D2F6C5;
+  /* silahkan bang adam */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media screen and (max-width:380px) {
   .imgJumbo,
   .slogan {
@@ -246,5 +274,33 @@
 
   #list {
     margin-top: 30px;
+  }
+
+  #about {
+    margin-top: -140px;
+    text-align: center;
+  }
+
+  .consumen {
+    display: flex;
+    justify-content: center;
+  }
+
+  .client,
+  .created {
+    margin: 20px;
+  }
+
+  .createdText {
+    display: none;
+  }
+
+  .services {
+    margin-top: 0px;
+  }
+
+  .headline {
+    display: flex;
+    align-items: center;
   }
 }
