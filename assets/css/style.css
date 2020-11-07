@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
@@ -230,6 +231,47 @@ html {
 .services {
   background: linear-gradient(white, #D2F6C5);
   margin-top: 100px;
+}
+
+/* pesan */
+.psn {
+  background-color: #D2F6C5;
+}
+
+.psn .tombol {
+
+  border-color: #28DF99;
+  color: white;
+  background-color: #28DF99;
+  padding: 10px 30px;
+  border-radius: 10px;
+  transition: .3s;
+
+}
+
+.psn .tombol:hover {
+
+  background-color: #33BF8B;
+  border-color: #33BF8B;
+}
+
+.psn .kotak {
+  height: 400px;
+  width: 300px;
+  background-color: #28DF99;
+  margin: auto;
+
+}
+
+.psn iframe {
+  border-radius: 5px;
+  box-shadow: -20px 20px 0px -10px #F6F7D4;
+  transition: .3s;
+}
+
+.psn iframe:hover {
+  transform: scale(1.1);
+  box-shadow: -40px 40px 0px -20px #F6F7D4;
 }
 
 /* contact */
