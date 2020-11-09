@@ -276,13 +276,58 @@ html {
 
 /* contact */
 #contact {
-  min-height: 100vh;
   background-color: #D2F6C5;
-  /* silahkan bang adam */
+  height: 300px;
+}
+
+.contact-box {
+  background-color: #F6F7D4;
+  box-shadow: 5px 5px 0px rgba(153, 243, 189, 0.5);
+  border-radius: 20px;
+  padding: 7px;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.contact-box:hover {
+  border-radius: 100%;
+  transform: rotate(360deg);
+}
+
+.whatsapp,
+.instagram,
+.gmail {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
 }
+
+a p {
+  color: black;
+}
+
+#contact a {
+  text-decoration: none;
+}
+
+/* footer */
+footer {
+  background-color: #8B8D47;
+  padding: 10px;
+  bottom: 0px;
+}
+
+footer a {
+  color: black;
+}
+
 
 @media screen and (max-width:380px) {
   .imgJumbo,
@@ -348,5 +393,14 @@ html {
   .headline {
     display: flex;
     align-items: center;
+  }
+
+  .psn iframe {
+    margin-bottom: -20px;
+    width: 250px;
+  }
+
+  #contact {
+    height: 400px;
   }
 }
