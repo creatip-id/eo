@@ -403,4 +403,9 @@ footer a {
   #contact {
     height: 400px;
   }
+
+  footer p,
+  footer a {
+    font-size: 15px;
+  }
 }
